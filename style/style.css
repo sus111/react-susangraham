@@ -1,3 +1,24 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
 h2{
   color: white;
   font-family: Helvetica;
@@ -6,7 +27,7 @@ h2{
 
 h3{
   color: white;
-  font: 16px Helvetica, bold;
+  font: 18px Helvetica, bold;
 }
 
 p{
@@ -15,31 +36,110 @@ p{
 }
 
 .background {
-  background-position: center center;
+  /*background-position: center center;*/
   background-image: url("../src/images/pattern.jpg");
-  background-repeat: no-repeat;
+  background-repeat: repeat-x;
   background-size: cover;
-  height: 100vw;
+  height: 100vh;
+  position: relative;
 }
 
 .header {
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  vertical-align: center;
 }
 
-.header:hover {
-  background: none;
+.name-title {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  margin-left: 1.5em;
+  padding: 1.5em;
+  vertical-align: middle;
+}
+
+.susan-graham {
+  font: 2em 'Montserrat', sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.links {
+  /*margin-left: auto;*/
+  color: white;
+  font: 18px Helvetica, bold;
+  display: flex;
+  align-items : center;
+  /*padding-left: 7em;
+  padding-right: 7em;*/
+}
+
+.link {
+  color: white;
+  padding-right: 5em;
+  text-decoration: none;
+  align-items : center;
+  letter-spacing: .03em;
+}
+
+.link:hover{
+  color: #FC466E;
+}
+
+.contact {
+  display: flex;
 }
 
 .content:hover {
-  background: #F8F8F8;
+  background: #F4D31C;
   height: 100%;
 }
 
+.fade {
+   opacity: 1;
+   transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+   }
+
+   .fade:hover {
+      opacity: 0.95;
+      }
+/*
 .footer {
   background-color: #343333;
   position: fixed;
   bottom: 0;
   left: 0;
   width: 100%;
-  height: 10%;
+  height: 15%;
+}*/
+
+.logos {
+  /*margin-left: auto;*/
+  align-items : center;
+  display: flex;
+}
+
+.logo{
+  height: 1.5em;
+  padding: 1em;
+}
+
+.email-logo {
+  height: 2em;
+}
+
+.logo:hover {
+  cursor: pointer;
+  /*color: #3A2292;*/
+}
+
+@media (max-width: 500px) {
+  .background {
+    width: 100vw;
+  }
 }

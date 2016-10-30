@@ -7,7 +7,7 @@ export default class App extends Component {
     return (
       <div className='background'>
         <Header />
-        <div className='content'>
+        <div className='content fade'>
           {this.props.children}
         </div>
         <Footer />
