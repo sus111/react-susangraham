@@ -1,0 +1,8 @@
+.about {
+  font-family: 'Merriweather Sans', sans-serif;
+  padding-top: 3em;
+}
+
+.about-content {
+  flex: 1;
+}

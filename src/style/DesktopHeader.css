@@ -1,0 +1,162 @@
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a.hover{
+  color: #f8d22f;
+}
+
+.main-header {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.name-title {
+  padding: 0 0 0.5em 3.5em;
+  text-align: left;
+  display: inline-block;
+}
+
+.susan-graham {
+  font: 'Montserrat', sans-serif;
+  color: white;
+  text-transform: uppercase;
+  display: inline-block;
+  margin-bottom: 0;
+  text-decoration: none !important;
+}
+
+.susan-graham:hover{
+  color: #f8d22f;
+}
+
+.fed-header {
+  color: white;
+  display: inline-block;
+  font: 'Montserrat', sans-serif;
+  margin-top: -0.8em;
+  text-decoration: none !important;
+}
+
+.fed-header:hover{
+  color: #f8d22f;
+}
+
+.links {
+  color: white;
+  font: 18px Helvetica, bold;
+  display: inline-block;
+}
+
+.link {
+  color: white;
+  text-decoration: none !important;
+  cursor: pointer;
+  padding: 0 1.2em 0 1.2em;
+  display: inline-block;
+}
+
+.link:hover{
+  color: #F4546B;
+}
+
+.logo {
+  height: 1.5em;
+  padding: 0 .8em;
+}
+
+.email-logo {
+  height: 2em;
+  paddding: 2em;
+}
+
+.logo:hover {
+  cursor: pointer;
+}
+
+.dropdown {
+  display: none;
+}
+
+.sg{
+  display: none;
+}
+
+@media (max-width : 992px) {
+
+  .link {
+    padding: 0 .5em;
+  }
+
+  .susan-graham{
+    font-size: 1.3em;
+  }
+
+  .fed-header {
+    font-size: 1.1em;
+  }
+
+}
+
+@media only screen and (max-width : 768px) {
+
+  .link {
+    padding: 0 .3em;
+    font: 14px Helvetica, bold;
+  }
+
+  .links {
+    font-size: 0.6em;
+    display: inline-block;
+  }
+
+  .logos {
+    display: inline-block;
+  }
+
+  .logo {
+    height: 1em;
+    padding: 0 .4em;
+  }
+
+  .email-logo {
+    height: 1.5em;
+    paddding: 1.5em;
+  }
+
+  .susan-graham{
+    font-size: 1.1em;
+  }
+
+  .fed-header {
+    font-size: 0.9em;
+  }
+
+  .row {
+    margin: 0;
+  }
+
+  .name-title {
+    padding-left: 1.5em;
+  }
+
+
+}
+
+@media (max-width: 500px) {
+
+  .links {
+    display: none;
+  }
+
+  .logos {
+    display: none;
+  }
+
+  .main-header {
+    display: none;
+  }
+
+}

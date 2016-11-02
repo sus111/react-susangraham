@@ -1,0 +1,79 @@
+.background {
+  /*background-position: center center;*/
+  background-image: url("../images/pattern.jpg");
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+  text-align: center;
+  display: table;
+  min-width: 100vw;
+}
+
+.fed {
+  color: white;
+  text-transform: uppercase;
+  font: 1.5em 'Montserrat', sans-serif;
+  display: inline-block;
+  margin-top: 0;
+}
+
+.link-splash{
+  font-size: 1em;
+  color: white;
+  text-decoration: none !important;
+  cursor: pointer;
+  padding: 0em 3em 0 3em;
+  display: inline-block;
+}
+
+.link-splash:hover{
+  color: #F4546B;
+}
+
+.sg-splash{
+  font: 2.5em 'Montserrat', sans-serif;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  display: inline-block;
+  margin-bottom: 0;
+}
+
+.splash {
+  vertical-align: middle;
+  display: table-cell;
+  background-color: rgba(30, 50, 20, 0.1);
+  height: 100vh;
+  width: 100vw;
+}
+
+.title-box {
+  display: inline-block;
+  /*background-color: #f8d22f;*/
+  background-color: rgba(50, 23, 23, 0.8);
+  border: .5em solid white;
+  border-radius: .2em;
+  padding-bottom: 1.5em;
+}
+
+@media (max-width: 500px) {
+
+  .fed-splash{
+    font-size: 1em;
+  }
+
+  .link-splash{
+    font-size: 0.8em;
+    padding: 0em 1.3em 0 1.3em;
+  }
+
+  .sg-splash{
+    font-size: 1.8em;
+  }
+
+  .title-box {
+    padding: 0 1em .8em 1em;
+    border-radius: none;
+  }
+
+}

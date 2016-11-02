@@ -1,0 +1,15 @@
+.projects {
+  padding-top: 2em;
+  flex: 1;
+}
+
+.project-title{
+  color: #3B3395;
+  font: 1.8em 'Montserrat', sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: left;
+}
+.project-pic {
+  display: block;
+}

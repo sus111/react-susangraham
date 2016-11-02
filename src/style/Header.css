@@ -1,0 +1,13 @@
+.header-background {
+  background-image: url("../images/pattern.jpg");
+  width: 100vw;
+}
+
+.header-overlay {
+  background-color: rgba(30, 50, 20, 0.2);
+  text-align: center;
+}
+
+.row {
+  margin: 0;
+}

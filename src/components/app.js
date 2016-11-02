@@ -3,15 +3,16 @@ import Header from './common/header';
 import Footer from './common/footer';
 
 export default class App extends Component {
+
   render() {
     return (
-      <div className='background'>
-        <Header />
-        <div className='content fade'>
-          {this.props.children}
+      <body>
+        <div className='content'>
+          <Header />
+            {this.props.children}
+          <Footer />
         </div>
-        <Footer />
-      </div>
+      </body>
     );
   }
 }

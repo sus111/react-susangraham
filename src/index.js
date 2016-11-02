@@ -5,4 +5,4 @@ import routes from './routes';
 
 ReactDOM.render(
     <Router history={browserHistory} routes={routes}/>
-  , document.querySelector('.container'));
+  , document.querySelector('.root'));

@@ -1,0 +1,28 @@
+h2{
+  color: white;
+  font-family: 'Merriweather Sans';
+  text-transform: uppercase;
+}
+
+h3{
+  color: white;
+  font: 18px 'Merriweather Sans', bold;
+}
+
+p{
+  color: #343333;
+  font-family: 'Merriweather Sans';
+  text-align: left;
+}
+
+.content {
+  background-color: #F4F3F1;
+  display: flex;
+  min-height: 100vh;
+  width: 100vw;
+  flex-direction: column;
+}
+
+.footer {
+  display: none;
+}

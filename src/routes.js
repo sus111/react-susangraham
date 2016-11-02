@@ -1,15 +1,20 @@
 import React from 'react';
-import { Route, IndexRoute } from 'react-router';
+import { Route, Router, IndexRoute } from 'react-router';
 
 import App from './components/App';
 import About from './components/about';
 import Projects from './components/projects';
 import Skills from './components/skills';
+import Splash from './components/splash';
 
 export default (
-<Route path="/" component={App}>
-  <IndexRoute component={About} />
-  <Route path="/projects" component={Projects} />
-  <Route path="/skills" component={Skills} />
-</Route>
+  <Router>
+    <Route path="/" component={Splash}></Route>
+    <Route path="/app" component={App}>
+      <Route path="/app/about" component={About} />
+      <Route path="/app/projects" component={Projects} />
+      <Route path="/app/skills" component={Skills} />
+    </Route>
+  </Router>
+
 );

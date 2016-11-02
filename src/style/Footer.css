@@ -1,0 +1,37 @@
+@media (max-width: 500px) {
+
+  .footer {
+    background-color: #070928;
+    display: table;
+    padding-top: 1em;
+    justify-content: space-between;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding-bottom: 2em;
+    width: 100vw
+  }
+
+  .footer-sg {
+    display: inline-block;
+    color: white;
+    display: table-row;;
+    font-size: .8em;
+    margin-top: .4em;
+  }
+
+  .footer-logos {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .logo {
+    height: 1.5em;
+    display: inline-flex;
+  }
+
+  .email-logo {
+    height: 1.9em;
+  }
+
+}

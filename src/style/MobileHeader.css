@@ -1,0 +1,26 @@
+@media (max-width: 500px) {
+
+  .dropdown {
+    display: inline-block;
+    margin: 1.5em;
+  }
+
+  .mobile-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .sg {
+    display: inline-flex;
+    padding: .25em 0 0 1em;
+    color: white;
+    font-size: large;
+    text-decoration: none !important
+  }
+
+  .sg:hover{
+    color: #f8d22f;
+  }
+
+}
