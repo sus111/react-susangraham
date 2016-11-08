@@ -2,7 +2,7 @@ p{
   font-family: 'Merriweather Sans', sans-serif;
   color: white;
   text-decoration: none !important;
-  font-size: 0.8em;
+  font-size: 1em;
 }
 
 .about-content {
@@ -13,7 +13,7 @@ p{
 
 .about {
   background-color: #FF4A6B;
-  min-height: 19em;
+  min-height: 20em;
 }
 
 .tech-about {
@@ -22,18 +22,18 @@ p{
 
 .tech-skills {
   background-color: #343875;
-  min-height: 19em;
+  min-height: 20em;
 }
 
 .additional-skills {
   background-color: #F9D400;
-  min-height: 19em;
+  min-height: 20em;
 }
 
 
 .contact-about {
   background-color: black;
-  min-height: 19em;
+  min-height: 20em;
   justify-content: center;
   display: flex;
   flex-direction: row;
@@ -76,14 +76,6 @@ p{
 @media only screen and (max-width : 768px) {
   .about-content {
     margin-left: 12%;
-  }
-
-  .tech-skills {
-    min-height: 20em;
-  }
-
-  .about {
-    min-height: 20em;
   }
 
 }
