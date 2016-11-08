@@ -90,11 +90,11 @@
 
   .link {
     padding: 0 .3em;
-    font: 14px Helvetica, bold;
+    font: 16px Helvetica, bold;
   }
 
   .links {
-    font-size: 0.6em;
+    font-size: 0.8em;
     display: inline-block;
   }
 
@@ -103,16 +103,16 @@
   }
 
   .logo {
-    height: 1em;
+    height: 1.2em;
     padding: 0 .4em;
   }
 
   .susan-graham{
-    font-size: 1.1em;
+    font-size: 1.3em;
   }
 
   .fed-header {
-    font-size: 0.9em;
+    font-size: 1.1em;
   }
 
   .row {
