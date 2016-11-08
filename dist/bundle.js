@@ -25686,7 +25686,7 @@
 	          _react2.default.createElement(
 	            'a',
 	            { target: '_blank', href: 'https://uk.linkedin.com/in/susan-graham-031354a7' },
-	            _react2.default.createElement('img', { className: 'logo', src: '/src/images/linkedin_logo.svg' })
+	            _react2.default.createElement('img', { className: 'logo', src: '/src/images/linkedIn_logo.svg' })
 	          )
 	        )
 	      );
@@ -25825,7 +25825,7 @@
 	      _react2.default.createElement(
 	        'a',
 	        { target: '_blank', href: 'https://uk.linkedin.com/in/susan-graham-031354a7' },
-	        _react2.default.createElement('img', { className: 'logo', src: '/src/images/linkedin_logo.svg' })
+	        _react2.default.createElement('img', { className: 'logo', src: '/src/images/linkedIn_logo.svg' })
 	      )
 	    )
 	  );
@@ -26017,7 +26017,7 @@
 	              _react2.default.createElement(
 	                'a',
 	                { target: '_blank', href: 'https://uk.linkedin.com/in/susan-graham-031354a7' },
-	                _react2.default.createElement('img', { className: 'about-logo', src: '/src/images/linkedin_logo.svg' })
+	                _react2.default.createElement('img', { className: 'about-logo', src: '/src/images/linkedIn_logo.svg' })
 	              )
 	            )
 	          )
