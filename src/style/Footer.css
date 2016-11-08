@@ -1,7 +1,7 @@
 @media (max-width: 500px) {
 
   .footer {
-    background-color: #070928;
+    background-color: black;
     display: table;
     padding-top: 1em;
     justify-content: space-between;
