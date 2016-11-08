@@ -2,7 +2,7 @@
   "name": "susan_graham",
   "version": "1.0.0",
   "description": "",
-  "main": "src/index.js",
+  "main": "bundle.js",
   "repository": "",
   "scripts": {
     "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
