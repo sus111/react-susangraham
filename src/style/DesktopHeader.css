@@ -58,11 +58,6 @@
   padding: 0 .8em;
 }
 
-.email-logo {
-  height: 2em;
-  paddding: 2em;
-}
-
 .logo:hover {
   cursor: pointer;
 }
@@ -110,11 +105,6 @@
   .logo {
     height: 1em;
     padding: 0 .4em;
-  }
-
-  .email-logo {
-    height: 1.5em;
-    paddding: 1.5em;
   }
 
   .susan-graham{

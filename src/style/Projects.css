@@ -1,15 +1,65 @@
-.projects {
-  padding-top: 2em;
-  flex: 1;
+.project {
+  margin: 0em auto 0em auto;
+  float: none;
+  padding: 2em;
+}
+
+.codey {
+  background-color: #343875;
+}
+
+.road-code{
+  background-color: #e5c034;
+}
+
+.tweet {
+  background-color: #e5425b;
+}
+
+.transaction {
+  background-color: #343875;
 }
 
 .project-title{
-  color: #3B3395;
+  color: white;
   font: 1.8em 'Montserrat', sans-serif;
   font-weight: bold;
+  margin-top: 0;
   text-transform: uppercase;
   text-align: left;
 }
+
 .project-pic {
   display: block;
+  margin-bottom: .5em;
+}
+
+.project-pic:hover {
+  background-color: rgba(10, 10, 10, 0.1);
+}
+
+.project-description {
+  margin-bottom: 0;
+  color: #F4F3F1;
+  font-weight: lighter;
+}
+
+.tech {
+  font-family: 'Helvetica Neue';
+  font-weight: lighter;
+  letter-spacing: .2em;
+  color: #F4F3F1;
+}
+
+.subtitle-pink {
+  color: #FF4A6B;
+}
+.subtitle-yellow {
+  color: #F9D400;
+}
+.subtitle-light-blue {
+  color: #39F0DE;
+}
+.subtitle-blue {
+  color: #343875;
 }

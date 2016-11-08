@@ -1,7 +1,9 @@
+
+autocrlf = false
+
 /node_modules
 bundle.js
 npm-debug.log
-/src/images
 # IntelliJ
 *.iml
 /.idea

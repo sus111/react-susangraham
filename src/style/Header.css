@@ -5,6 +5,7 @@
 
 .header-overlay {
   background-color: rgba(30, 50, 20, 0.2);
+  max-height: 6.3em;
   text-align: center;
 }
 

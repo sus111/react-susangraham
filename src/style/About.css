@@ -1,8 +1,96 @@
-.about {
+p{
   font-family: 'Merriweather Sans', sans-serif;
-  padding-top: 3em;
+  color: white;
+  text-decoration: none !important;
+  font-size: 0.8em;
 }
 
 .about-content {
   flex: 1;
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
+
+.about {
+  background-color: #FF4A6B;
+  min-height: 19em;
+}
+
+.tech-about {
+  margin-top: -0.5em;
+}
+
+.tech-skills {
+  background-color: #343875;
+  min-height: 19em;
+}
+
+.additional-skills {
+  background-color: #F9D400;
+  min-height: 19em;
+}
+
+
+.contact-about {
+  background-color: black;
+  min-height: 19em;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+}
+
+.about-row {
+  display: flex;
+  flex-direction: column;
+}
+
+.row-centered {
+    text-align:center;
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+    text-align:left;
+    margin-right:-4px;
+}
+
+.about-logo {
+  height: 3em;
+  margin: 2em;
+}
+
+.anchor {
+  color: #39F0DE;
+}
+
+@media only screen and (max-width : 992px) {
+
+  .tech-about {
+    margin-top: -0.8em;
+  }
+
+}
+
+@media only screen and (max-width : 768px) {
+  .about-content {
+    margin-left: 12%;
+  }
+
+  .tech-skills {
+    min-height: 20em;
+  }
+
+  .about {
+    min-height: 20em;
+  }
+
+}
+
+@media only screen and (max-width : 500px) {
+  .contact-about {
+    display: none;
+  }
+
 }

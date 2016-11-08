@@ -14,7 +14,6 @@ export default class DesktopHeader extends Component {
         <div className='links col-xs-4'>
           <Link to="/app/about" className='link'>About</Link>
           <Link to="/app/projects" className='link'>Projects</Link>
-          <Link to="/app/skills" className='link'>Skills</Link>
         </div>
         <div className='logos col-xs-4'>
           <a target="_blank" href='mailto:sgraham535@gmail.com'>

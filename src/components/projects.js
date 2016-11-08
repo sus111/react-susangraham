@@ -10,13 +10,11 @@ export default class Projects extends Component {
   render(){
 
     return(
-      <div>
-        <div className='projects'>
-          <Codey />
-          <RoadToCode />
-          <TweetSearch />
-          <TransactionViewer />
-        </div>
+      <div className='projects row'>
+        <Codey />
+        <RoadToCode />
+        <TweetSearch />
+        <TransactionViewer />
       </div>
     );
   }

@@ -37,6 +37,7 @@
   text-transform: uppercase;
   display: inline-block;
   margin-bottom: 0;
+  padding: 0.5em;
 }
 
 .splash {
@@ -49,7 +50,6 @@
 
 .title-box {
   display: inline-block;
-  /*background-color: #f8d22f;*/
   background-color: rgba(50, 23, 23, 0.8);
   border: .5em solid white;
   border-radius: .2em;

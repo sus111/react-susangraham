@@ -13,7 +13,6 @@ export default class MobileHeader extends Component {
           <ul className="dropdown-menu pull-right">
             <li><Link to="/app/about" className='link'>About</Link></li>
             <li><Link to="/app/projects" className='link'>Projects</Link></li>
-            <li><Link to="/app/skills" className='link'>Skills</Link></li>
           </ul>
         </div>
       </div>
