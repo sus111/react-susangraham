@@ -11,7 +11,7 @@ export default class Codey extends Component {
           <p className='subtitle-pink'>Practice typing code fast with Codey Gonzalez!</p>
           <a target="_blank" href='https://codey-gonzalez.herokuapp.com/'>
           <img className='project-pic img-responsive' src='/src/images/codey_gonzalez.jpg'></img></a>
-          <p className='subtitle-light-blue'>View <a className='subtitle-light-blue' href='https://github.com/sus111/codey-gonzalez'>code on github</a></p>
+          <p className='subtitle-light-blue'>View <a className='subtitle-light-blue' target="_blank" href='https://github.com/sus111/codey-gonzalez'>code on github</a></p>
           <p className='project-description'>I made this typing game while at Makers Academy, in a team of five during a three-day hackathon.</p>
         </div>
       </div>

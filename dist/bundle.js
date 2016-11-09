@@ -25454,11 +25454,10 @@
 	exports.default = _react2.default.createElement(
 	  _reactRouter.Router,
 	  null,
-	  _react2.default.createElement(_reactRouter.Route, { path: '/', component: _splash2.default }),
 	  _react2.default.createElement(
 	    _reactRouter.Route,
 	    { path: '/app', component: _App2.default },
-	    _react2.default.createElement(_reactRouter.Route, { path: '/app/about', component: _about2.default }),
+	    _react2.default.createElement(_reactRouter.IndexRoute, { path: '/app/about', component: _about2.default }),
 	    _react2.default.createElement(_reactRouter.Route, { path: '/app/projects', component: _projects2.default })
 	  )
 	);
@@ -26166,7 +26165,7 @@
 	            'View ',
 	            _react2.default.createElement(
 	              'a',
-	              { className: 'subtitle-light-blue', href: 'https://github.com/sus111/codey-gonzalez' },
+	              { className: 'subtitle-light-blue', target: '_blank', href: 'https://github.com/sus111/codey-gonzalez' },
 	              'code on github'
 	            )
 	          ),
@@ -26453,10 +26452,6 @@
 	var _react = __webpack_require__(2);
 
 	var _react2 = _interopRequireDefault(_react);
-
-	var _reactDom = __webpack_require__(159);
-
-	var _reactDom2 = _interopRequireDefault(_reactDom);
 
 	var _reactRouter = __webpack_require__(160);
 
