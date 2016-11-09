@@ -22,6 +22,7 @@
 
   .footer-logos {
     display: flex;
+    padding-top: 1em;
     justify-content: space-around;
   }
 

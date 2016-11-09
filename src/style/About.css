@@ -10,8 +10,9 @@ p{
 }
 
 .about {
-  background-color: #FF4A6B;
-  min-height: 26.5em;
+  background-color: #e5425b;
+  min-height: 50vh;
+  padding: 4em 4em 1em 4em;
 }
 
 .tech-about {
@@ -20,18 +21,20 @@ p{
 
 .tech-skills {
   background-color: #343875;
-  min-height: 26.5em;
+  min-height: 50vh;
+  padding: 4em 4em 1em 4em;
 }
 
 .additional-skills {
-  background-color: #F9D400;
-  min-height: 26.5em;
+  background-color: #e5c034;
+  min-height: 50vh;
+  padding: 4em 4em 0 4em;
 }
 
 
 .contact-about {
   background-color: black;
-  min-height: 26.5em;
+  min-height: 50vh;
   justify-content: center;
   display: flex;
   flex-direction: row;
@@ -65,31 +68,52 @@ p{
 
 @media only screen and (max-width : 992px) {
 
+  p{
+    font-size: 1em;
+  }
+
   .tech-about {
-    margin-top: -0.8em;
+    margin-top: -0.5em;
   }
 
   .about {
-    min-height: 32em;
+    padding: 3em;
   }
 
   .tech-skills {
-    min-height: 32em;
+    padding: 3em;
   }
 
   .additional-skills {
-    min-height: 32em;
-  }
-
-  .contact-about {
-    min-height: 32em;
+    padding: 3em;
   }
 
 }
 
 @media only screen and (max-width : 768px) {
-  .about-content {
-    /*margin-left: 12%;*/
+  .about {
+    padding: 2.5em;
+    min-height: 0;
+  }
+
+  .tech-skills {
+    padding: 2.5em;
+    min-height: 0;
+  }
+
+  .additional-skills {
+    padding: 2.5em;
+    min-height: 0;
+  }
+
+  .contact-about {
+    min-height: 0;
+    padding: 2.5em;
+    display: inline;
+  }
+
+  .about-row {
+    display: inline-block;
   }
 
 }
@@ -97,6 +121,18 @@ p{
 @media only screen and (max-width : 500px) {
   .contact-about {
     display: none;
+  }
+
+  .about {
+    padding: 1.5em;
+  }
+
+  .tech-skills {
+    padding: 1.5em;
+  }
+
+  .additional-skills {
+    padding: 1.5em 1.5em 1em 1.5em;
   }
 
 }

@@ -25879,7 +25879,7 @@
 	          { className: 'row' },
 	          _react2.default.createElement(
 	            'div',
-	            { className: 'about col-lg-4 col-lg-offset-2 col-sm-5 col-sm-offset-1 col-xs-10' },
+	            { className: 'about col-sm-6 col-xs-12' },
 	            _react2.default.createElement(
 	              'h3',
 	              null,
