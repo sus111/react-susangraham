@@ -25456,9 +25456,9 @@
 	  null,
 	  _react2.default.createElement(
 	    _reactRouter.Route,
-	    { path: '/app', component: _App2.default },
-	    _react2.default.createElement(_reactRouter.IndexRoute, { path: '/app/about', component: _about2.default }),
-	    _react2.default.createElement(_reactRouter.Route, { path: '/app/projects', component: _projects2.default })
+	    { path: '/', component: _App2.default },
+	    _react2.default.createElement(_reactRouter.IndexRoute, { component: _about2.default }),
+	    _react2.default.createElement(_reactRouter.Route, { path: '/projects', component: _projects2.default })
 	  )
 	);
 
@@ -25660,12 +25660,12 @@
 	          { className: 'links col-xs-4' },
 	          _react2.default.createElement(
 	            _reactRouter.Link,
-	            { to: '/app/about', className: 'link' },
+	            { to: '/', className: 'link' },
 	            'About'
 	          ),
 	          _react2.default.createElement(
 	            _reactRouter.Link,
-	            { to: '/app/projects', className: 'link' },
+	            { to: '/projects', className: 'link' },
 	            'Projects'
 	          )
 	        ),
@@ -25764,7 +25764,7 @@
 	              null,
 	              _react2.default.createElement(
 	                _reactRouter.Link,
-	                { to: '/app/about', className: 'link' },
+	                { to: '/', className: 'link' },
 	                'About'
 	              )
 	            ),
@@ -25773,7 +25773,7 @@
 	              null,
 	              _react2.default.createElement(
 	                _reactRouter.Link,
-	                { to: '/app/projects', className: 'link' },
+	                { to: '/projects', className: 'link' },
 	                'Projects'
 	              )
 	            )

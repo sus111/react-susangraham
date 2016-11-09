@@ -12,8 +12,8 @@ export default class DesktopHeader extends Component {
           <h3 className='fed-header'><Link to="/" className='fed-header'>Front-End Developer</Link></h3>
         </div>
         <div className='links col-xs-4'>
-          <Link to="/app" className='link'>About</Link>
-          <Link to="/app/projects" className='link'>Projects</Link>
+          <Link to="/" className='link'>About</Link>
+          <Link to="/projects" className='link'>Projects</Link>
         </div>
         <div className='logos col-xs-4'>
           <a target="_blank" href='mailto:sgraham535@gmail.com'>

@@ -8,9 +8,9 @@ import Splash from './components/splash';
 
 export default (
   <Router>
-    <Route path="/app" component={App}>
+    <Route path="/" component={App}>
       <IndexRoute component={About} />
-      <Route path="/app/projects" component={Projects} />
+      <Route path="/projects" component={Projects} />
     </Route>
   </Router>
 

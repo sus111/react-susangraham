@@ -11,8 +11,8 @@ export default class MobileHeader extends Component {
           <button className="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">About
           <span className="caret"></span></button>
           <ul className="dropdown-menu pull-right">
-            <li><Link to="/app" className='link'>About</Link></li>
-            <li><Link to="/app/projects" className='link'>Projects</Link></li>
+            <li><Link to="/" className='link'>About</Link></li>
+            <li><Link to="/projects" className='link'>Projects</Link></li>
           </ul>
         </div>
       </div>
