@@ -92,6 +92,7 @@ p{
     display: flex;
     flex-direction: row;
     text-align: center;
+    vertical-align: center;
   }
 
 }
@@ -120,6 +121,10 @@ p{
 
   .about-row {
     display: inline-block;
+  }
+
+  .tech-about {
+    font-size: 1em;
   }
 
 }
