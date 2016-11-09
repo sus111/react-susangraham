@@ -8,8 +8,8 @@ import Splash from './components/splash';
 
 export default (
   <Router history={browserHistory}>
-    <Route path="/" component={App}>
-      <IndexRoute component={About} />
+    <Route component={App}>
+      <Route path="/" component={About} />
       <Route path="/projects" component={Projects} />
     </Route>
   </Router>
