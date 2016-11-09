@@ -25879,7 +25879,7 @@
 	          { className: 'row' },
 	          _react2.default.createElement(
 	            'div',
-	            { className: 'about col-sm-6 col-xs-12' },
+	            { className: 'about col-lg-4 col-sm-6 col-xs-12' },
 	            _react2.default.createElement(
 	              'h3',
 	              null,
@@ -25903,7 +25903,7 @@
 	          ),
 	          _react2.default.createElement(
 	            'div',
-	            { className: 'tech-skills col-sm-6 col-xs-12' },
+	            { className: 'tech-skills col-lg-4 col-sm-6 col-xs-12' },
 	            _react2.default.createElement(
 	              'h3',
 	              null,
@@ -25949,14 +25949,10 @@
 	              { className: 'tech tech-about' },
 	              'PHOTOSHOP | ILLUSTRATOR | SKETCH'
 	            )
-	          )
-	        ),
-	        _react2.default.createElement(
-	          'div',
-	          { className: 'row' },
+	          ),
 	          _react2.default.createElement(
 	            'div',
-	            { className: 'additional-skills col-sm-6 col-xs-12' },
+	            { className: 'additional-skills col-lg-4 col-sm-6 col-xs-12' },
 	            _react2.default.createElement(
 	              'h3',
 	              null,

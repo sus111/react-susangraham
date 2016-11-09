@@ -11,7 +11,7 @@ p{
 
 .about {
   background-color: #e5425b;
-  min-height: 50vh;
+  min-height: 100vh;
   padding: 4em 4em 1em 4em;
 }
 
@@ -21,25 +21,18 @@ p{
 
 .tech-skills {
   background-color: #343875;
-  min-height: 50vh;
+  min-height: 100vh;
   padding: 4em 4em 1em 4em;
 }
 
 .additional-skills {
   background-color: #e5c034;
-  min-height: 50vh;
+  min-height: 100vh;
   padding: 4em 4em 0 4em;
 }
 
-
 .contact-about {
-  background-color: black;
-  min-height: 50vh;
-  justify-content: center;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  text-align: center;
+  display: none;
 }
 
 .about-row {
@@ -78,14 +71,27 @@ p{
 
   .about {
     padding: 3em;
+    min-height: 50vh;
   }
 
   .tech-skills {
     padding: 3em;
+    min-height: 50vh;
   }
 
   .additional-skills {
     padding: 3em;
+    min-height: 50vh;
+  }
+
+  .contact-about {
+    min-height: 50vh;
+    align-items: center;
+    background-color: black;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
   }
 
 }
