@@ -25453,7 +25453,7 @@
 
 	exports.default = _react2.default.createElement(
 	  _reactRouter.Router,
-	  null,
+	  { history: _reactRouter.browserHistory },
 	  _react2.default.createElement(
 	    _reactRouter.Route,
 	    { path: '/', component: _App2.default },
